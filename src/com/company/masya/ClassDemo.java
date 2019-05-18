@@ -9,7 +9,7 @@ import javax.swing.*;
 // Главный класс программы:
     public class ClassDemo{
     public static void main(String[] args){
-        MyClass obj=new MyClass();
+        MyClass2 obj=new MyClass2();
         // Заполнение полей объекта:
         obj.num=12;
         obj.symb='A';
