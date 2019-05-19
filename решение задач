@@ -154,4 +154,19 @@ public class Masya1 {
 }
 
 
+//Необходимо вывести на экран таблицу умножения на 3:
+
+public class Masya1 {
+
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+
+            int umnozh = 3 * i;
+
+            System.out.println("3 * " + i + " = " + umnozh);
+        }
+    }
+}
+
 
