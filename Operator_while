@@ -74,3 +74,65 @@ i-=10;  это сокращенная запись для i = (i-10);
         }
     }
 }
+
+
+
+
+//Необходимо вывести на экран вот такую последовательность (10 раз):
+//9 8 7 6 5 4 3 2 1 0
+
+    public static void main(String[] args) {
+        int i = 10;
+        while (i > 0) {
+            i--;
+            System.out.println();
+
+            for (int j = 10; j > 0;) {
+                j--;
+                System.out.print(j + " ");
+
+            }
+        }
+    }
+}
+
+
+//Необходимо вывести на экран вот такую последовательность (10 раз):
+//0 1 2 3 4 5 6 7 8 9
+    //0 1...8
+
+
+    public static void main(String[] args) {
+        int i = 0;
+
+        while (i <= 9) {
+            for (int j = 0; j <= 9 - i; j++) {
+                System.out.print(j + " ");
+            }
+            i++;
+            System.out.println();
+        }
+    }
+}
+
+
+or
+
+//Необходимо вывести на экран вот такую последовательность (10 раз):
+//0 1 2 3 4 5 6 7 8 9
+    //0 1...8
+
+
+    public static void main(String[] args) {
+        int i = 9;
+
+        while (i >= 0) {
+
+            for (int j = 0; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+            i--;
+            System.out.println();
+        }
+    }
+}
